@@ -8,15 +8,23 @@ import  {
 } from 'react-native';
 
 class Chat extends React.Component {
-  state = {
-    //these are placeholders for an example of the array of objects. This will be filled dynamically by backend
-    messages: [{text: 'Hello', user: 'Me', createdAt: null}]
-  };
-  render() {
+constructor(props) {
+  super(props);
+  this.state = {
+    messages: [],
+    count: 0
+  }
+}
+
+render() {
     return (
       <GiftedChat
         messages={this.state.messages}
-        //this is where the backend code goes for message sending (i.e firebase)
+        onSend={(message) => {
+          this.setState({count: this.state.count + 1});
+          var joined = this.state.messages.concat({_id:this.state.count, text: message[0].text, user: "dev", createdAt: new Date()});
+          this.setState({messages: joined.reverse()});
+        }}
       />
     );
   }
