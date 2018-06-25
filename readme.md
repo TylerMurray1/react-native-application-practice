@@ -8,7 +8,7 @@ application development less challenging and manageable.
 
 ### Steps to test program:
 
-..* Download the SDK for iOS and Android (Need a Mac for Xcode iPhone simulator)
-..* Install React Native here: [React Native step-by-step download](https://facebook.github.io/react-native/)
-..* Use the steps in the React Native link to get the React Native project set
+  * Download the SDK for iOS and Android (Need a Mac for Xcode iPhone simulator)
+  * Install React Native here: [React Native step-by-step download](https://facebook.github.io/react-native/)
+  * Use the steps in the React Native link to get the React Native project set
     up and ready to run.
