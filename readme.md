@@ -15,4 +15,4 @@ application development less challenging and manageable.
 
 *This application is not dynamic. Messages are stored currently within an array.
 I plan to create a database that can store the messages sent back and forth by
-different users.  
+different users.*
