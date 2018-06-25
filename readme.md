@@ -11,4 +11,8 @@ application development less challenging and manageable.
   * Download the SDK for iOS and Android (Need a Mac for Xcode iPhone simulator)
   * Install React Native here: [React Native step-by-step download](https://facebook.github.io/react-native/)
   * Use the steps in the React Native link to get the React Native project set
-    up and ready to run.
+    up and ready to run. To do this, click the Get Started tab in the link.
+
+*This application is not dynamic. Messages are stored currently within an array.
+I plan to create a database that can store the messages sent back and forth by
+different users.  
